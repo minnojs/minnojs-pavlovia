@@ -1,0 +1,15 @@
+{
+  "name": "minnojs-pavlovia-plugin",
+  "version": "1.0.0",
+  "description": "A plugin for using MinnoJS with Pavlovia.org",
+  "main": "minnojs.pavlovia.plugin.js",
+  "scripts": {
+      "build": "uglifyjs minnojs.pavlovia.plugin.js --output minnojs.pavlovia.plugin.min.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "uglify-js": "^3.13.1"
+  }
+}
